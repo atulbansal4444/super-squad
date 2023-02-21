@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import CharacterListContainer from "./CharacterList";
-import "../styles/styles.css";
-import HeroListContainer from "./herosList";
+import HeroListContainer from "./HerosList";
 import OurSquadSetContainer from "./OurSquadSet";
+
+import "../styles/styles.css";
 class App extends Component {
   render() {
     return (
