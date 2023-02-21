@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import { getCharacters } from "../selectors/characterSelectors";
 import { addCharacterById } from "../actions";
@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 const CharacterList = ({ characterList, addCharacterById }) => {
   return (
-    <Fragment>
+    <div>
       <h4>Characters</h4>
       <ul className="list-group">
         {
@@ -23,7 +23,7 @@ const CharacterList = ({ characterList, addCharacterById }) => {
           })
         }
       </ul>
-    </Fragment>
+    </div>
   );
 };
 

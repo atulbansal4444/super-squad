@@ -19,3 +19,17 @@ body {
 .list-item {
   display: inline-block;
 }
+
+.col-md-4 {
+  float: left;
+  margin-right: 30px;
+}
+
+.col-md-3 {
+  float: left;
+  margin-right: 30px;
+}
+
+.col-md-2 {
+  float: left;
+}
